@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resumen</title>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+      
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">    
+<link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <link href="https://fonts.googleapis.com/css?family=Play:400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="global/css/nav-bar.css" />
+    <link rel="stylesheet" type="text/css" href="global/css/table-details.css">
+    <link rel="stylesheet" type="text/css" href="global/css/utilities.css" />
+    <link rel="stylesheet" href="global/css/wallet.css">
+    <link rel="stylesheet" href="global/css/blue-box.css">
+    <link rel="stylesheet" href="global/css/white-box.css">
+  </head>
+
+  <body>
+    <!--Begin NavBar -->
+    <nav class="top-navbar-collapse" id="top-navbar">
+    
+      <!-- Barra de navegacion superior -->
+      <ul class="top-nav">
+        <div>
+          <li class="ml-4">
+          </li>
+          <li class="ml-4">
+            <button>
+              <img src="global/assets/notification-active.svg" class="topbar-notis" alt="">
+            </button>
+          </li>
+        </div>
+        <div>
+          <li class="country-nav-item">Argentina <img src="global/assets/flag-arg.svg" alt=""></li>
+          <li class="logout-nav-item">
+            <a href="" class="no-underline">
+              <div>
+                <svg id="Capa_1" class="sidebar-icon" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 15.49 15.74">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #fff;
+                      }
+                    </style>
+                  </defs>
+                  <title>admin peygold</title>
+                  <path class="cls-1"
+                    d="M12.25,1.69a7.75,7.75,0,1,1-9,0,.76.76,0,0,1,1.1.24l.49.88a.75.75,0,0,1-.21,1,5.26,5.26,0,1,0,6.25,0,.75.75,0,0,1-.21-1l.5-.88a.75.75,0,0,1,1.09-.24ZM9,8.25V.75A.75.75,0,0,0,8.25,0h-1A.74.74,0,0,0,6.5.75v7.5A.75.75,0,0,0,7.25,9h1A.76.76,0,0,0,9,8.25Z" />
+                </svg>
+                <span>Cerrar sesión</span>
+              </div>
+            </a>
+          </li>
+        </div>
+      </ul>
+    
+      <!-- Final Barra de navegacion superior -->
+    
+    </nav>
+    <!-- Navbar END -->
+
+    <div class="row" id="body-row">
+      <!-- Sidebar -->
+      <div class="sidebar-extended" id="sidebar-wrapper">
+        <div class="sidebar-extended" id="sidebar-container">
+          <ul class="list-group">
+            <!-- IMPORTANTE: Añadir clase active al anchor tag en el side-bar -->
+      
+            <!-- Titulo peygold -->
+            <li>
+              <div class="center-sidebar-title">
+                <img src="global/assets/logo-peygold-2.svg" class="title-extended title" alt="" />
+                <img src="global/assets/isotipo.svg" class="title title-collapse d-none" alt="">
+                <span><i class="fas fa-bars" id="quit-sm-btn"></i></span>
+              </div>
+            </li>
+            <!-- Titulo peygold -->
+      
+            <div class="border-top-white"></div>
+      
+            <!-- Usuario logeado -->
+            <li>
+              <div id="center-sidebar-user">
+                <img src="global/assets/user3.png" id="user-img-sidebar" alt="User image" />
+                <p id="user-text">
+                  <span class="sidebar-welcome-text">BIENVENIDO</span><br />
+                  <span class="sidebar-user-text">Gustavo Rojas</span>
+                </p>
+              </div>
+            </li>
+            <!-- Usuario logeado -->
+      
+            <!-- Subtitulo sidebar -->
+            <li class="nav-item">
+              <a class="nav-link sidebar-link active" href="#">
+                <div class="d-flex">
+                    <span class="icon-Iconos-01"></span> <span>Inicio</span>
+                </div>
+                
+              </a>
+            </li>
+            <!-- Subtitulo sidebar -->
+      
+            <!-- Subtitulo sidebar -->
+            <li class="nav-subtitles" id="wallet-li-sidebar">
+              <div class="navsub-content">
+                <div class="d-flex">
+                <span class="icon-Iconos-02"></span>
+                  <span>Movimientos</span>
+                </div>
+              
+              </div>
+            </li>
+            <!-- Subtitulo sidebar -->
+      
+           
+            <!-- Elementos de la sidebar -->
+      
+            <!-- Subtitulo sidebar -->
+            <li class="nav-subtitles" id="charge-li-sidebar">
+              <div class="navsub-content">
+                <div>
+             <span class="icon-Iconos-03"></span>
+                  <span>Ingresar Dinero</span>
+                </div>
+                
+              </div>
+            </li>
+            <!-- Subtitulo sidebar -->
+         <li class="nav-subtitles" id="charge-li-sidebar">
+              <div class="navsub-content">
+                <div class="d-flex">
+           <span class="icon-Iconos-04"></span>
+                  <span>Cobrar</span>
+                </div>
+                
+              </div>
+            </li>
+        
+           <!-- Elementos de la sidebar  -->   
+            
+            <li class="nav-subtitles" id="charge-li-sidebar">
+              <div class="navsub-content">
+                <div class="d-flex">
+                  <span class="icon-Iconos-05"></span>
+                  <span>Pagar/Enviar Dinero</span>
+                </div>
+                
+              </div>
+            </li>
+              
+                 <!-- Elementos de la sidebar  -->   
+            
+            <li class="nav-subtitles" id="charge-li-sidebar">
+              <div class="navsub-content">
+                <div class="d-flex">
+                 <span class="icon-Iconos-06"></span>
+                  <span>QR</span>
+                </div>
+                
+              </div>
+            </li>
+      
+  
+            <!-- Subtitulo sidebar Rematar -->
+            <li class="nav-subtitles" id="pay-li-sidebar">
+              <div class="navsub-content">
+                <div class="d-flex">
+                   <span class="icon-Iconos-13"></span>
+                  <span>Rematar</span>
+                </div>
+                <svg version="1.1" id="pay-chevron-sidebar" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 238.003 238.003"
+                  style="enable-background:new 0 0 238.003 238.003;" xml:space="preserve" class="sidebar-icon chevron-right">
+                  <g>
+                    <g>
+                      <path d="M181.776,107.719L78.705,4.648c-6.198-6.198-16.273-6.198-22.47,0s-6.198,16.273,0,22.47
+                      			l91.883,91.883l-91.883,91.883c-6.198,6.198-6.198,16.273,0,22.47s16.273,6.198,22.47,0l103.071-103.039
+                      			c3.146-3.146,4.672-7.246,4.64-11.283C186.416,114.902,184.89,110.833,181.776,107.719z" />
+                    </g>
+                  </g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                  <g></g>
+                </svg>
+                <div class="sub-content-collapse" id="sub-content-pay">
+                  <div>
+                    <h4 class="fs-15 ml-3">Cobrar</h4>
+                  </div>
+                  <div>
+                    <a class="nav-link" href="#">
+                      <img src="global/assets/punto-pagar.png" alt="">
+                      <span class="sidebar-sub-link">Enviar dinero</span>
+                    </a>
+                    <a class="nav-link" href="#">
+                      <img src="global/assets/punto-pagar.png" alt="">
+                      <span class="sidebar-sub-link">Solicitudes</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- Subtitulo sidebar -->
+      
+            <!-- Elementos de la sidebar -->
+            <div class="hide-panel-sidebar" id="pay-panel-sidebar">
+              <ul class="sidebar-sublist sublist-pay">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="sidebar-sub-link">Enviar dinero</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="sidebar-sub-link">Solicitudes</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            
+        <!-- Elementos de la sidebar -->
+      
+           <li class="nav-subtitles" id="charge-li-sidebar">
+              <div class="navsub-content">
+                <div class="d-flex">
+                  
+                    <span class="icon-Iconos-08"></span> 
+                  <span>Comercios Adheridos</span>
+                </div>
+                
+              </div>
+            </li>    
+              
+        <div class="mt-3 mb-3 border-top-white"></div> <!-- Div para espaciar los elementos -->
+      
+      
+            <!-- Subtitulo sidebar -->
+            <li class="nav-item">
+              <a class="nav-link sidebar-link" href="#">
+                <div class="d-flex">
+                 
+                <span class="icon-Iconos-09"></span>
+                <span>Mi Usuario</span>
+             </div> 
+            </a>
+            </li>
+            <!-- Subtitulo sidebar -->
+      
+      
+            <li class="nav-item">
+              <a class="nav-link sidebar-link" href="#">
+                <div class="d-flex">
+               <span class="icon-Iconos-07"></span>   
+                <span>Ayuda</span>
+                  </div>  
+              </a>
+            </li>
+      
+        <li class="nav-item">
+          <a class="nav-link sidebar-link" href="#">
+            <div class="d-flex">
+              <span class="icon-Iconos-10"></span>   
+                <span class="bold">Ir a Tienda</span>
+                </div>
+                
+              </a>
+            </li>      
+      
+            <!-- <li class="nav-item" id="logout-item">
+                    <a class="nav-link" href="#">
+                      <div>
+                        <svg id="Capa_1" class="sidebar-icon" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 15.49 15.74">
+                          <defs>
+                            <style>
+                              .cls-1 {
+                                fill: #009bdb;
+                              }
+                            </style>
+                          </defs>
+                          <title>admin peygold</title>
+                          <path class="cls-1"
+                            d="M12.25,1.69a7.75,7.75,0,1,1-9,0,.76.76,0,0,1,1.1.24l.49.88a.75.75,0,0,1-.21,1,5.26,5.26,0,1,0,6.25,0,.75.75,0,0,1-.21-1l.5-.88a.75.75,0,0,1,1.09-.24ZM9,8.25V.75A.75.75,0,0,0,8.25,0h-1A.74.74,0,0,0,6.5.75v7.5A.75.75,0,0,0,7.25,9h1A.76.76,0,0,0,9,8.25Z" />
+                        </svg>
+                      </div>
+                      <span>Cerrar Sesión</span>
+                    </a>
+                  </li> -->
+            <!-- Elementos de la sidebar -->
+          </ul>
+        </div>
+      </div>
+      <!-- Sidebar end -->
+        
+      <!-- MAIN -->
+   <div class="col" id="main-div">
+      <div class="row">
+        <div class="col-lg-11 white-box-wrapper">
+          <h2>Remates Peygold</h2>
+            <p>Te damos la bienvenida a este beneficio exclusivo para empresas.</p>
+            <p>Ahora podrás participar en remates y obtener remates exclusivos en la compra de PUNTOS PEYGOLD. <br>Al mismo tiempo, podrás poner en remate tus propios puntos y personalizar tus ofertas</p>
+          <div class="content-white-box">
+              <button href="#" role="button" class="content-white-button">Rematar mis puntos</button>
+              <button href="rematesdisponibles.html" role="button" class="content-white-button">Remates disponibles</button>
+          </div>
+        </div>
+      </div><!-- Main col div end -->
+
+      
+
+    </div>
+     <!-- body-row END -->    
+</div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="global/js/app.js"></script>
+  </body>
+
+</html>
